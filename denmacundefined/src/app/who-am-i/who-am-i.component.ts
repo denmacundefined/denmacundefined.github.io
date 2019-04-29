@@ -8,7 +8,7 @@ import { BsModalService } from 'ngx-bootstrap/modal';
 })
 export class WhoAmIComponent implements OnInit {
 
-  private isVideoDone: boolean;
+  isVideoDone: boolean;
 
   constructor(private modalService: BsModalService) {}
  
