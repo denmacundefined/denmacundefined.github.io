@@ -44,7 +44,7 @@
       </trans-unit>
       <trans-unit id="3287fcb83c1f8cb71ed197c386cf076e80197455" datatype="html">
         <source>Don&apos;t you still beleave me ?</source>
-        <target>Ти все не віриш мені ?</target>
+        <target>Ти все ще не віриш мені ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">7</context>
@@ -68,7 +68,7 @@
       </trans-unit>
       <trans-unit id="57e2c3e6097e400fed631a51cb5639d0a0664c67" datatype="html">
         <source>Don&apos;t spend your time and start doing your &quot;fucking&quot; dreams</source>
-        <target>Не витрачай свій час і почни давай працюй над своїми "бісовими" ідеями</target>
+        <target>Не витрачай свій час і давай працюй над своїми "бісовими" ідеями</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">11</context>
