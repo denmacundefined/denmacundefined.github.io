@@ -5,63 +5,63 @@
       <trans-unit id="9b9840f33404e13745b1bf325a073396080c72c6" datatype="html">
         <source>Who am I ?</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6067d2b4eb66ab75eb129d7027adefe1279049ad" datatype="html">
         <source>I am a campion.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="13207d837d0f01ed7375cc9b1945c8d5b6712e0b" datatype="html">
         <source>Don&apos;t you trust me ?</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9570b93b1671f3a3624fd1d122a1dec54835b31c" datatype="html">
-        <source>Trust me, I am a jedi, not so happy than this man:</source>
+      <trans-unit id="06a8e068cc800a0824e3e216325d921d0ddb4bd3" datatype="html">
+        <source>Trust me, I could be a jedi, not so happy than this man:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4ae17c0c6aef97de690e46c582c60bb26e322422" datatype="html">
         <source>but I don&apos;t give up.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3287fcb83c1f8cb71ed197c386cf076e80197455" datatype="html">
         <source>Don&apos;t you still beleave me ?</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b76dc92485d393e576241684fb64ccd9c25b61e4" datatype="html">
         <source>so, look on it:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="157d3ebae14be38b153695e3a50ebab7fdf96a61" datatype="html">
         <source>Do you still here ?</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="57e2c3e6097e400fed631a51cb5639d0a0664c67" datatype="html">
         <source>Don&apos;t spend your time and start doing your &quot;fucking&quot; dreams</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
