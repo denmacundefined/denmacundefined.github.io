@@ -13,7 +13,6 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit() {
       $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-        debugger
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -52,6 +51,9 @@ export class AppComponent implements AfterViewInit {
           preload: [0, 1]
         },
         image: {
+          titleSrc: function (item) {
+            return `<a href="${item.el.attr('title')}">${item.el.attr('title')}</a>`;
+           },
           tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
       });

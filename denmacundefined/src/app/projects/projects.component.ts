@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { PROJECTS } from '../constants';
 
 @Component({
   selector: 'app-projects',
@@ -8,11 +7,14 @@ import { PROJECTS } from '../constants';
 })
 export class ProjectsComponent implements OnInit {
 
-  projects = PROJECTS;
-
   constructor() { }
 
   ngOnInit() {
   }
 
+  visit(url, event: Event) {
+    event.stopPropagation();
+    event.preventDefault();
+    location.href = url;
+  }
 }

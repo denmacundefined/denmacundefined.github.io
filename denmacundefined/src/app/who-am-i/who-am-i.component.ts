@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
+import { BsModalService } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-who-am-i',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhoAmIComponent implements OnInit {
 
-  constructor() { }
+  private isVideoDone: boolean;
 
-  ngOnInit() {
+  constructor(private modalService: BsModalService) {}
+ 
+  openModal(template: TemplateRef<any>) {
+    this.modalService.show(template);
+    this.modalService.onHide.subscribe(item => {
+      this.isVideoDone = true;
+    });
   }
 
+  ngOnInit() {
+    this.isVideoDone = false;
+  }
 }
