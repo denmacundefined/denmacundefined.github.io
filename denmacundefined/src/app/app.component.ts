@@ -9,7 +9,22 @@ declare var $ : any;
 
 export class AppComponent implements AfterViewInit {
 
-  constructor (private renderer: Renderer2) {}
+  urlPath: string = location.pathname;
+  anotherLanguage: string = 'укр';
+
+  constructor (private renderer: Renderer2) {
+    if (this.urlPath !== '/') {
+      this.anotherLanguage = 'eng';
+    }
+  }
+
+  changeLanguage() {
+    if (this.urlPath === '/') {
+      location.href = location.origin + '/ua/';
+    } else {
+      location.href = location.origin;
+    }
+  }
 
   ngAfterViewInit() {
       $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
