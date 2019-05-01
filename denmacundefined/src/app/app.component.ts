@@ -43,7 +43,7 @@ export class AppComponent implements AfterViewInit {
       $('#portfolio').magnificPopup({
         delegate: 'a',
         type: 'image',
-        tLoading: 'Loading image #%curr%...',
+        tLoading: '#%curr%...',
         mainClass: 'mfp-img-mobile',
         gallery: {
           enabled: true,
@@ -53,8 +53,7 @@ export class AppComponent implements AfterViewInit {
         image: {
           titleSrc: function (item) {
             return `<a href="${item.el.attr('title')}">${item.el.attr('title')}</a>`;
-           },
-          tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+           }
         }
       });
   }

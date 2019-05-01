@@ -7,6 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  projects = [{
+    name: "Smart Watcher",
+    link: "smart-watcher.denmacundefined.pp.ua",
+    photoNumber: 1
+  }, {
+    name: "Smart Place Guard",
+    link: "smart-place-guard.denmacundefined.pp.ua",
+    photoNumber: 3
+  }, {
+    name: "Smart Place Server",
+    link: "smart-place-server.denmacundefined.pp.ua",
+    photoNumber: 2
+  }]
+
   constructor() { }
 
   ngOnInit() {
@@ -15,6 +29,6 @@ export class ProjectsComponent implements OnInit {
   visit(url, event: Event) {
     event.stopPropagation();
     event.preventDefault();
-    location.href = url;
+    location.href = 'http://' + url;
   }
 }
