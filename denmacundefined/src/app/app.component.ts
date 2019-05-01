@@ -42,7 +42,7 @@ export class AppComponent implements AfterViewInit {
       $('.js-scroll-trigger').click(function() {
         $('.navbar-collapse').collapse('hide');
       });
-      $('base').scrollspy({
+      $('body').scrollspy({
         target: '#mainNav',
         offset: 75
       });
