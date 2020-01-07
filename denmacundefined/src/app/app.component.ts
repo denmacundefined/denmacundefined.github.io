@@ -1,6 +1,6 @@
-import { Component, AfterViewInit, Renderer2 } from '@angular/core';
+import { Component, AfterViewInit, Renderer2, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-declare var $ : any;
+declare var $: any;
 
 @Component({
   selector: 'app-root',
@@ -8,28 +8,28 @@ declare var $ : any;
   styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent implements AfterViewInit {
+export class AppComponent implements AfterViewInit, OnInit {
 
-  urlPath: string = location.pathname;
-  anotherLanguage: string = 'укр';
+  urlPath = location.pathname;
+  anotherLanguage = 'укр';
   actions: [];
 
-  constructor (private renderer: Renderer2, private http: HttpClient) {
+  constructor(private renderer: Renderer2, private http: HttpClient) {
     if (this.urlPath !== '/') {
       this.anotherLanguage = 'eng';
     }
   }
 
   ngOnInit() {
-    this.http.get('/assets/config.json').subscribe(response => {
-      this.actions = response['actions'];
+    this.http.get('/assets/config.json').subscribe((response: any) => {
+      this.actions = response.actions;
     });
   }
 
   runAllActions(event) {
     event.preventDefault();
-    this.actions.forEach((item) => {
-      window.open(item["link"], "_blank");
+    this.actions.forEach((item: any) => {
+      window.open(item.link, '_blank');
     });
   }
 
@@ -43,29 +43,29 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit() {
       $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-          var target = $(this.hash);
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+          let target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
           if (target.length) {
             $('html, body').animate({
               scrollTop: (target.offset().top - 72)
-            }, 1000, "easeInOutExpo");
+            }, 1000, 'easeInOutExpo');
             return false;
           }
         }
       });
-      $('.js-scroll-trigger').click(function() {
+      $('.js-scroll-trigger').click(() => {
         $('.navbar-collapse').collapse('hide');
       });
       $('body').scrollspy({
         target: '#mainNav',
         offset: 75
       });
-      var navbarCollapse = function() {
-        if ($("#mainNav").offset().top > 100) {
-          $("#mainNav").addClass("navbar-scrolled");
+      const navbarCollapse = () => {
+        if ($('#mainNav').offset().top > 100) {
+          $('#mainNav').addClass('navbar-scrolled');
         } else {
-          $("#mainNav").removeClass("navbar-scrolled");
+          $('#mainNav').removeClass('navbar-scrolled');
         }
       };
       navbarCollapse();
@@ -81,7 +81,7 @@ export class AppComponent implements AfterViewInit {
           preload: [0, 1]
         },
         image: {
-          titleSrc: function (item) {
+          titleSrc: (item) => {
             return `<a href="${item.el.attr('title')}">${item.el.attr('title')}</a>`;
            }
         }
