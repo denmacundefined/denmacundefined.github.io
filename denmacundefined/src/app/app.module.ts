@@ -5,7 +5,7 @@ import { WhoAmIComponent } from './who-am-i/who-am-i.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ModalModule } from 'ngx-bootstrap';
 import { ContactComponent } from './contact/contact.component';
-import { HttpClientModule }    from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { NgxTwitterTimelineModule } from 'ngx-twitter-timeline';
 
 @NgModule({

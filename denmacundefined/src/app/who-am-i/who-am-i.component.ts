@@ -11,7 +11,7 @@ export class WhoAmIComponent implements OnInit {
   isVideoDone: boolean;
 
   constructor(private modalService: BsModalService) {}
- 
+
   openModal(template: TemplateRef<any>) {
     this.modalService.show(template);
     this.modalService.onHide.subscribe(item => {

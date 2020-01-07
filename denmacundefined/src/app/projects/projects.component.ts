@@ -13,8 +13,8 @@ export class ProjectsComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    this.http.get('/assets/config.json').subscribe(response => {
-      this.projects = response['projects'];
+    this.http.get('/assets/config.json').subscribe((response: any) => {
+      this.projects = response.projects;
     });
   }
 
