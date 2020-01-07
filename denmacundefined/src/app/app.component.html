@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#whoami" i18n>Who I am</a>
+            <a class="nav-link js-scroll-trigger" href="#whoami" i18n>Who am I</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio" i18n>Projects</a>
@@ -44,7 +44,7 @@
     <app-who-am-i> </app-who-am-i>
   </section> 
 
-  <!-- Porojects Section -->
+  <!-- Projects Section -->
   <section id="portfolio">
     <app-projects> </app-projects>
   </section>
@@ -52,8 +52,12 @@
   <!-- Call to Action Section -->
   <section class="page-section bg-dark text-white">
     <div class="container text-center">
-      <h2 class="mb-4" i18n>Smart Place (IoT DIY and CMS platform)</h2>
-      <a class="btn btn-light btn-xl" href="http://smart-place.denmacundefined.pp.ua" i18n>See now!</a>
+      <ng-template ngFor let-action [ngForOf]="actions">
+        <h2 class="mb-4">{{action.text}}</h2>
+      </ng-template>
+      <a class="btn btn-light btn-xl"
+        (click)="runAllActions($event)"
+        href i18n>See now!</a> 
     </div>
   </section>
 
@@ -65,7 +69,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted" i18n>Created by <a href="#whoami">Den MacUndefined</a> in 2019 year</div>
+      <div class="small text-center text-muted" i18n>Created by <a href="#contact">Den MacUndefined</a> in 2020 year</div>
     </div>
   </footer>
 

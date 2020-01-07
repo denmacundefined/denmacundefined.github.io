@@ -1,4 +1,5 @@
 import { Component, AfterViewInit, Renderer2 } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 declare var $ : any;
 
 @Component({
@@ -11,11 +12,25 @@ export class AppComponent implements AfterViewInit {
 
   urlPath: string = location.pathname;
   anotherLanguage: string = 'укр';
+  actions: [];
 
-  constructor (private renderer: Renderer2) {
+  constructor (private renderer: Renderer2, private http: HttpClient) {
     if (this.urlPath !== '/') {
       this.anotherLanguage = 'eng';
     }
+  }
+
+  ngOnInit() {
+    this.http.get('/assets/config.json').subscribe(response => {
+      this.actions = response['actions'];
+    });
+  }
+
+  runAllActions(event) {
+    event.preventDefault();
+    this.actions.forEach((item) => {
+      window.open(item["link"], "_blank");
+    });
   }
 
   changeLanguage() {

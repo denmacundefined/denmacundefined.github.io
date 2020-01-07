@@ -2,67 +2,60 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="34e7c3c63e36eccc42c94cfdbae747ab1a51f374" datatype="html">
-        <source>Who I am</source>
+      <trans-unit id="d510e3cb10f8bd3bee14269f2985d1c18dd49a39" datatype="html">
+        <source>Who am I</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d2a7deb7096cada2c3177157652680fe7e6de0ed" datatype="html">
         <source>Projects</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
         <source>Contact</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="67bccbc3329999f400e71332b612282a3c911919" datatype="html">
         <source>Just a <x id="START_STRIKETHROUGH_TEXT" ctype="x-s" equiv-text="&lt;s&gt;"/>good<x id="CLOSE_STRIKETHROUGH_TEXT" ctype="x-s" equiv-text="&lt;/s&gt;"/> person </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c6cf8a10a573030c1783b1107d96612df5116374" datatype="html">
         <source>JavaScript evangelist, and sometimes a dreamer...</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0d77288302eef70bf1ef93f729faf77a3e1786e5" datatype="html">
         <source>Find Out More</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d1f497dfbe86e05257865fef21ae82a3ab93db91" datatype="html">
-        <source>Smart Place (IoT DIY and CMS platform)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0b0ad681804b5a871a01fef5b6347902d9d4679b" datatype="html">
         <source>See now!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">54</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="f21d15cd4a79f9c99e9dda36533c86d2c63bfb53" datatype="html">
-        <source>Created by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Den MacUndefined<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> in 2019 year</source>
+      <trans-unit id="01fdba5f5ea0d7b75553b22a8ef05fb64bf413c8" datatype="html">
+        <source>Created by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Den MacUndefined<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> in 2020 year</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9b9840f33404e13745b1bf325a073396080c72c6" datatype="html">
@@ -118,7 +111,7 @@
         <source>Look on my projects</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/who-am-i/who-am-i.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cd9e7ae37861c5cb07e1466c10fbab6d55e80aa2" datatype="html">

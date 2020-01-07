@@ -151,6 +151,9 @@ ngx-bootstrap/positioning
 
 ngx-bootstrap/utils
 
+ngx-twitter-timeline
+MIT
+
 rxjs
 Apache-2.0
                                Apache License
