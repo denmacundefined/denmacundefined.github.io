@@ -8,5 +8,11 @@
     },{"name":"Smart Place Server",
         "link":"smart-place-server.denmacundefined.pp.ua",
         "photoNumber":2
-    }]
-}
+    }],
+"actions": [{"text": "Smart Place - JavaScript based IoT Platform for DIY ideas.",
+    "link": "http://smart-place.denmacundefined.pp.ua"},
+    {"text": "Smart Place - JavaScript based IoT Platform for DIY ideas.",
+        "link": "http://smart-place.denmacundefined.pp.ua"},
+        {"text": "Smart Place - JavaScript based IoT Platform for DIY ideas.",
+            "link": "http://smart-place.denmacundefined.pp.ua"}
+]}
