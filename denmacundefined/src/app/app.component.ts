@@ -26,6 +26,13 @@ export class AppComponent implements AfterViewInit {
     });
   }
 
+  runAllActions(event) {
+    event.preventDefault();
+    this.actions.forEach((item) => {
+      window.open(item["link"], "_blank");
+    });
+  }
+
   changeLanguage() {
     if (this.urlPath === '/') {
       location.href = location.origin + '/ua/';

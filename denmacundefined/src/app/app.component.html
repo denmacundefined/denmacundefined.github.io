@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#twitter" i18n>Twitter</a>
+            <a class="nav-link js-scroll-trigger" href="#whoami" i18n>Who am I</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio" i18n>Projects</a>
@@ -33,15 +33,15 @@
         </div>
         <div class="col-lg-8 align-self-baseline">
           <p class="text-white-75 font-weight-light mb-5" i18n>JavaScript evangelist, and sometimes a dreamer...</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#twitter" i18n>Find Out More</a>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#whoami" i18n>Find Out More</a>
         </div>
       </div>
     </div>
   </header>
 
   <!-- Who am I Section -->
-  <section class="page-section bg-primary" id="twitter">
-    <twitter> </twitter>
+  <section class="page-section bg-primary" id="whoami">
+    <app-who-am-i> </app-who-am-i>
   </section> 
 
   <!-- Projects Section -->
@@ -54,8 +54,10 @@
     <div class="container text-center">
       <ng-template ngFor let-action [ngForOf]="actions">
         <h2 class="mb-4">{{action.text}}</h2>
-        <a class="btn btn-light btn-xl" href="{{action.link}}">{{action.link}}</a> 
       </ng-template>
+      <a class="btn btn-light btn-xl"
+        (click)="runAllActions($event)"
+        href i18n>See now!</a> 
     </div>
   </section>
 
@@ -67,7 +69,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted" i18n>Created by <a href="#contact">Den MacUndefined</a> in 2019 year</div>
+      <div class="small text-center text-muted" i18n>Created by <a href="#contact">Den MacUndefined</a> in 2020 year</div>
     </div>
   </footer>
 

@@ -1,6 +1,6 @@
 <div class="container">
-    <div class="row justify-content-center">
-    <div class="col-lg-8 text-center">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 text-center">
         <h2 class="text-white mt-0" i18n>Who am I ?</h2>
         <hr class="divider light my-4">
         <p class="text-white-50 mb-4" i18n>I am a campion!</p>
@@ -15,9 +15,15 @@
             <h3 class="text-white mt-0" i18n>Do you still here ?</h3>
             <p class="text-white-50 mb-4" i18n>Don't spend your time and start doing your "fucking" dreams</p>
         </ng-container>
-        <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio" i18n>Look on my projects</a>
     </div>
+    <div class="col-lg-6 text-center twitter-block">
+      <ngx-twitter-timeline 
+          [data]="{sourceType: 'url', url: 'https://twitter.com/denmacundefined'}"
+          [opts]="{tweetLimit: 1, chrome: ['nofooter']}"
+      ></ngx-twitter-timeline>
     </div>
+    <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio" i18n>Look on my projects</a>
+  </div>
 </div>
 
 <ng-template #template>
