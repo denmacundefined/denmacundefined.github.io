@@ -9,6 +9,6 @@
         "link":"smart-place-server.denmacundefined.pp.ua",
         "photoNumber":2
     }],
-"actions": [{"text": "Smart Place - JavaScript based IoT Platform for DIY ideas.",
-    "link": "http://smart-place.denmacundefined.pp.ua"}, {"text": "Local server with mbills solution", "link": "http://ip.denmacundefined.pp.ua"}
+"actions": [{"text": "Smart Place",
+    "link": "http://smart-place.denmacundefined.pp.ua"}, {"text": "Mbills", "link": "http://ip.denmacundefined.pp.ua"}
 ]}
