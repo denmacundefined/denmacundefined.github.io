@@ -1,0 +1,16 @@
+{"projects":
+    [{"name":"Smart Watcher",
+        "link":"smart-watcher.denmacundefined.pp.ua",
+        "photoNumber":1
+    },{"name":"Smart Place Guard",
+        "link":"smart-place-guard.denmacundefined.pp.ua",
+        "photoNumber":3
+    },{"name":"Smart Place Server",
+        "link":"smart-place-server.denmacundefined.pp.ua",
+        "photoNumber":2
+    }],
+"actions": [{"text": "Smart Place",
+    "link": "https://smart-place.denmacundefined.pp.ua"},
+    {"text": "ebanoe.it",
+    "link": "https://ebanoe.it"}
+]}
