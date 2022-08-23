@@ -9,8 +9,9 @@
         "link":"smart-place-server.denmacundefined.pp.ua",
         "photoNumber":2
     }],
-"actions": [{"text": "Smart Place",
-    "link": "https://smart-place.denmacundefined.pp.ua"},
-    {"text": "Beautiful IT",
-    "link": "https://ebanoe.it"}
+"actions": [
+    {"text": " ",
+    "link": "https://ebanoe.it"},
+    {"text": "Smart Place",
+    "link": "https://smart-place.denmacundefined.pp.ua"}
 ]}
