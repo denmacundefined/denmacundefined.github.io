@@ -9,6 +9,8 @@
         "link":"smart-place-server.denmacundefined.pp.ua",
         "photoNumber":2
     }],
-"actions": [{"text": "Smart Place - JavaScript based IoT Platform for DIY ideas.",
-    "link": "http://smart-place.denmacundefined.pp.ua"}
+"actions": [{"text": "Smart Place",
+    "link": "https://smart-place.denmacundefined.pp.ua"},
+    {"text": "ebanoe.it",
+    "link": "https://ebanoe.it"}
 ]}
