@@ -10,8 +10,6 @@
         "photoNumber":2
     }],
 "actions": [
-    {"text": " ",
-    "link": "https://ebanoe.it"},
     {"text": "Smart Place",
     "link": "https://smart-place.denmacundefined.pp.ua"}
 ]}
