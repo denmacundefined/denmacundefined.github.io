@@ -5,14 +5,13 @@
     },{"name":"Smart Place Guard",
         "link":"smart-place-guard.denmacundefined.pp.ua",
         "photoNumber":3
-    },{"name":"Smart Place Server",
-        "link":"ip.denmacundefined.pp.ua",
-        "photoNumber":2
    },{"name":"Dash Cam from GoPro",
         "link":"gopro-2014-dash-cam.denmacundefined.pp.ua",
         "photoNumber":4
     }],
 "actions": [
     {"text": "Smart Place",
-    "link": "https://smart-place.denmacundefined.pp.ua"}
+    "link": "https://smart-place.denmacundefined.pp.ua"},
+    {"text": "Smart Place Server",
+    "link": "ip.denmacundefined.pp.ua"}
 ]}
