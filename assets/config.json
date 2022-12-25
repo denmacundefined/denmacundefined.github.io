@@ -11,7 +11,13 @@
    },{"name":"Pet server",
         "link":"ip.denmacundefined.pp.ua",
         "photoNumber":5
-    }],
+   },{"name":"shutdown-internet-checker",
+        "link":"shutdown-internet-checker.denmacundefined.pp.ua",
+        "photoNumber":2
+   },{"name":"MBills",
+        "link":"mbills.denmacundefined.pp.ua",
+        "photoNumber":6
+   }],
 "actions": [
     {"text": "Smart Place",
     "link": "https://smart-place.denmacundefined.pp.ua"}
