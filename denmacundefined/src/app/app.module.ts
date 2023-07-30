@@ -6,7 +6,6 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ModalModule } from 'ngx-bootstrap';
 import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
-import { NgxTwitterTimelineModule } from 'ngx-twitter-timeline';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { NgxTwitterTimelineModule } from 'ngx-twitter-timeline';
     BrowserModule,
     HttpClientModule,
     ModalModule.forRoot(),
-    NgxTwitterTimelineModule
   ],
   providers: [],
   bootstrap: [AppComponent]

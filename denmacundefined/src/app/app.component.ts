@@ -29,9 +29,7 @@ export class AppComponent implements AfterViewInit, OnInit {
   runAllActions(event) {
     event.preventDefault();
     this.actions.forEach((item: any) => {
-      setTimeout(() => {
-        window.open(item.link, item.name, 'height=333px,width=333px');
-      }, 333);
+      window.open(item.link, item.name);
     });
   }
 
